@@ -1,0 +1,31 @@
+Answers go here!
+
+1. Line 249, Wrong array indexing with invaders[invaderRow][invaderRow]
+
+invaders[invaderRow][invaderRow]
+changed to 
+invaders[invaderRow][invaderCol]
+
+2. Line 27, Stray semi colon at the end of if statement
+
+if (protector->weapon == weapon_axe && invader->weapon == weapon_sword); 
+changed to 
+if (protector->weapon == weapon_axe && invader->weapon == weapon_sword)
+
+3. Line 62, For loop was not being incremented
+
+for (int colIdx = 0; colIdx < numCols;) 
+changed to 
+for (int colIdx = 0; colIdx < numCols; colIdx++)
+
+4. Line 194, Rows and columns were switched during initialization of invaders
+
+Warrior ***invaders = AllocateWarriors(m, n, false);
+to
+Warrior ***invaders = AllocateWarriors(n, m, false);
+
+5. 
+
+if (invader->power > protector->power)
+
+else if (protector->power > invader->power)

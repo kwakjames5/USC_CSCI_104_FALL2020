@@ -1,0 +1,118 @@
+./main input/permitted1.txt 0
+0
+1
+1
+
+./main input/permitted2.txt 10
+10
+11
+1
+
+./main input/permitted3.txt 00
+00
+10
+11
+2
+
+./main input/permitted4.txt 00
+00
+01
+11
+2
+
+./main input/permitted5.txt 000
+000
+001
+101
+111
+3
+
+./main input/permitted6.txt 000
+000
+100
+101
+111
+3
+
+./main input/permitted7.txt 0001
+0001
+1001
+1101
+1111
+4
+
+./main input/permitted8.txt 00000
+00000
+00010
+00110
+10110
+11110
+11111
+8
+
+./main input/permitted9.txt 00000
+00000
+00010
+10010
+11010
+11110
+11111
+8
+
+./main input/permitted10.txt 00000
+00000
+00100
+01100
+01110
+01111
+11111
+5
+
+./main input/permitted11.txt 00100
+00100
+01100
+01101
+11101
+11111
+4
+
+./main input/permitted12.txt 00000
+no path
+2
+
+./main input/permitted13.txt 01000010
+01000010
+11000010
+10000010
+10000011
+00000011
+00100011
+00110011
+00110001
+00110101
+00110100
+00111100
+00011100
+10011100
+10011110
+11011110
+11111110
+11111111
+41
+
+./main input/permitted14.txt 00000000
+no path
+247
+
+./main input/permitted15.txt 00000000
+00000000
+00000001
+00000011
+00000111
+00001111
+00011111
+00111111
+01111111
+11111111
+8
+
